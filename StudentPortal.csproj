@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\clientapp\.gitignore" />
+    <Content Remove="wwwroot\clientapp\public\favicon.ico" />
+    <Content Remove="wwwroot\clientapp\public\index.html" />
+    <Content Remove="wwwroot\clientapp\public\logo192.png" />
+    <Content Remove="wwwroot\clientapp\public\logo512.png" />
+    <Content Remove="wwwroot\clientapp\public\robots.txt" />
+    <Content Remove="wwwroot\clientapp\README.md" />
+    <Content Remove="wwwroot\clientapp\src\App.css" />
+    <Content Remove="wwwroot\clientapp\src\App.js" />
+    <Content Remove="wwwroot\clientapp\src\App.test.js" />
+    <Content Remove="wwwroot\clientapp\src\index.css" />
+    <Content Remove="wwwroot\clientapp\src\index.js" />
+    <Content Remove="wwwroot\clientapp\src\logo.svg" />
+    <Content Remove="wwwroot\clientapp\src\reportWebVitals.js" />
+    <Content Remove="wwwroot\clientapp\src\setupTests.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\clientapp\.gitignore" />
+    <None Include="wwwroot\clientapp\public\favicon.ico" />
+    <None Include="wwwroot\clientapp\public\index.html" />
+    <None Include="wwwroot\clientapp\public\logo192.png" />
+    <None Include="wwwroot\clientapp\public\logo512.png" />
+    <None Include="wwwroot\clientapp\public\robots.txt" />
+    <None Include="wwwroot\clientapp\README.md" />
+    <None Include="wwwroot\clientapp\src\App.css" />
+    <None Include="wwwroot\clientapp\src\App.js" />
+    <None Include="wwwroot\clientapp\src\App.test.js" />
+    <None Include="wwwroot\clientapp\src\index.css" />
+    <None Include="wwwroot\clientapp\src\index.js" />
+    <None Include="wwwroot\clientapp\src\logo.svg" />
+    <None Include="wwwroot\clientapp\src\reportWebVitals.js" />
+    <None Include="wwwroot\clientapp\src\setupTests.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\clientapp\package-lock.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\clientapp\package.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\clientapp\public\manifest.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
