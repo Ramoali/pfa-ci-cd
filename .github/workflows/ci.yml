@@ -50,4 +50,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: your-dockerhub-username/pfa-ci-cd:latest
+          tags: omar544/pfa-ci-cd:latest
